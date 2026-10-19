@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+playwright/node_modules/
+
+# Playwright reports & artifacts
+test-results/
+playwright/test-results/
+playwright-report/
+playwright/playwright-report/
+blob-report/
+playwright/blob-report/
+playwright/.cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

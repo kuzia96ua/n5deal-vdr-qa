@@ -1,0 +1,28 @@
+{
+  "name": "n5deal-vdr-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Automation Framework for Virtual Data Room (VDR)",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:e2e": "playwright test tests/e2e",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "vdr",
+    "qa",
+    "api-testing"
+  ],
+  "author": "Dmytro Pasko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
